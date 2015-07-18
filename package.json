@@ -1,0 +1,26 @@
+{
+  "name": "testing-hapi",
+  "version": "0.0.1",
+  "description": "restful hapi api test",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/lab -c"
+  },
+  "keywords": [
+    "test app",
+    "restful api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/nrotta/testing-hapi.git"
+  },
+  "author": "Nicolas Rotta",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^8.8.0"
+  },
+  "devDependencies": {
+    "code": "^1.4.1",
+    "lab": "^5.13.0"
+  }
+}
